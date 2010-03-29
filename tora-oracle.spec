@@ -3,7 +3,7 @@
 %define _use_internal_dependency_generator 0
 %define tarball_name	tora
 %define name	%{tarball_name}-oracle
-%define version	2.1.1
+%define version	2.1.2
 %define release %mkrel 1
 
 Summary:		Toolkit for Oracle with Oracle, MySQL and PostgreSQL support
