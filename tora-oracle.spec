@@ -130,7 +130,7 @@ EOF
 
 %files
 %defattr(-,root,root)
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
 %{_libdir}/*.tpl
 %_datadir/applications/%{tarball_name}.desktop
 %{_docdir}/tora/*
