@@ -1,0 +1,13 @@
+--- tora-2.0.0-orig/src/main.cpp	2008-10-29 10:59:11.000000000 -0500
++++ tora-2.0.0/src/main.cpp	2009-05-19 11:08:54.000000000 -0500
+@@ -107,10 +107,6 @@
+      */
+     QApplication app(argc, argv);
+ 
+-    QString style(toConfigurationSingle::Instance().style());
+-    if (!style.isEmpty())
+-        QApplication::setStyle(QStyleFactory::create(style));
+-
+     // Set the default codec to use for QString
+     QTextCodec::setCodecForCStrings(QTextCodec::codecForName("UTF-8")); 
+ 
