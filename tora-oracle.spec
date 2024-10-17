@@ -12,7 +12,7 @@ Version:		%{version}
 Release:		%{release}
 Source:			%{tarball_name}-%{version}.tar.bz2
 Patch1:			fix_kde_theme_qt45.patch
-URL:			http://www.torasql.com
+URL:			https://www.torasql.com
 Group:			Development/Databases
 License:		GPLv2+
 BuildRoot:		%{_tmppath}/tora-root
