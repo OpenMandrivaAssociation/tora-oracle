@@ -21,6 +21,7 @@ Requires:	qt4-database-plugin-mysql
 Requires:	qt4-database-plugin-pgsql
 Requires:	libaio1
 #Requires:	oracle-instantclient11.1-basic
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 BuildRequires:	postgresql-devel
 BuildRequires:	qscintilla-qt4-devel
